@@ -328,6 +328,15 @@ export const noteArticles = [
     component: () => import('../../views/notes/articles/PythonFromZero36.vue')
   },
   {
+    slug: 'python-from-zero-37',
+    title: '第 37 课：os 与配置读取（os.getenv / BaseSettings）',
+    series: 'Python 从零',
+    tags: ['Python', '入门', '配置'],
+    summary: 'os 是什么、os.getenv / os.path 常用 API；手写配置的痛点 → pydantic-settings 的 BaseSettings：读 .env、类型转换校验、字段↔变量对应、优先级，配合 @lru_cache 全局唯一。',
+    updated: '2026-08-26',
+    component: () => import('../../views/notes/articles/PythonFromZero37.vue')
+  },
+  {
     slug: 'python-stdlib-map',
     title: 'Python 标准库地图：模块分级与学习顺序',
     series: 'Python 生态',

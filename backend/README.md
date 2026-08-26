@@ -7,13 +7,10 @@ Python 入门课：每次只学一小块，跑通、改一改、真正理解，�
 ```powershell
 cd backend
 python 01_hello/01_hello.py            # 每课一个文件夹，跑里面的主课文件
-# 最后一课(36)两阶段对照（同一端口 8899，同时只起一个服务）
-# 阶段1 标准库：
-python 36_requests/36_stdlib_server.py   # 终端1
-python 36_requests/36_stdlib_client.py   # 终端2
-# 阶段2 三方（需 pip install requests flask）：
-python 36_requests/36_flask_server.py    # 终端1
-python 36_requests/36_requests.py        # 终端2
+# 最后一课(37)配置：
+python 37_config/37_config.py            # 先建好 37_config/.env（见文件顶部说明）
+# 练习：
+python 37_config/37_config_exercise.py
 ```
 
 **目录约定**：每一课都是一个独立文件夹（如 `01_hello/`、`18_modules/`），
@@ -61,5 +58,6 @@ python 36_requests/36_requests.py        # 终端2
 | 34 | `34_logging/34_logging.py`（知识）+ `34_logging_exercise.py`（练习） | logging：五级日志、`getLogger`、`basicConfig`、`Handler`/`Formatter`、`ColorFormatter` 控制台上色；`verbose` 联动 argparse |
 | 35 | `35_pytest/35_pytest.py`（知识）+ `test_tools_demo.py` + `35_pytest_exercise.py`（练习） | pytest（需 `pip install pytest`）：`assert`、`test_` 命名、`raises`、`parametrize`；给函数写可重复验证的测试 |
 | 36 | 阶段1：`36_stdlib_server.py` + `36_stdlib_client.py`；阶段2：`36_flask_server.py` + `36_requests.py`；+ `36_requests_exercise.py` | HTTP 对照：标准库 `urllib`/`http.server` vs 三方 `requests`/`Flask`（需 pip）；同一套路由、不发外网；**基础课收官** |
+| 37 | `37_config/37_config.py`（知识）+ `37_config_exercise.py`（练习）+ 自建 `37_config/.env` | `os` 基础（`os.getenv`/`os.path`）+ 配置读取：环境变量 vs `.env`（`python-dotenv`）+ pydantic-settings `BaseSettings`（`SettingsConfigDict`、字段↔变量对应、优先级、`@lru_cache`） |
 
 先把第 1 课吃透。不要跳。每课做完练习再往下。
