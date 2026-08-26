@@ -1,0 +1,15 @@
+# from-zero 练习专属忽略规则
+
+# 练习运行时生成的数据
+scores.json
+demo.json
+demo.txt
+
+# 测试 / 练习运行时生成的临时文件
+*_tmp.json
+*.tmp.json
+*.tmp.*
+_demo_log.txt
+.pytest_cache/
+__pycache__/
+*.py[cod]

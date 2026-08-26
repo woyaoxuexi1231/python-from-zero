@@ -1,0 +1,21 @@
+/* 学习笔记：贴近 Vue Docs 的阅读配色 */
+
+.notes-shell {
+  --notes-brand: #42b883;
+  --notes-brand-dark: #33a06f;
+  --notes-brand-soft: #e7f5ef;
+  --notes-text: #213547;
+  --notes-text-secondary: #3c3c43;
+  --notes-text-muted: #67676c;
+  --notes-border: #e2e2e5;
+  --notes-surface: #ffffff;
+  --notes-canvas: #f6f6f7;
+  --notes-inline-code-bg: #eef3f0;
+  --notes-inline-code-fg: #476582;
+  --notes-code-bg: #1b1b1f;
+  --notes-code-fg: #dbdbe0;
+  --notes-tip-bg: #e7f5ef;
+  --notes-tip-border: #42b883;
+  --notes-warn-bg: #fef6e8;
+  --notes-warn-border: #e6a23c;
+}
