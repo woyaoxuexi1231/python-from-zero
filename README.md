@@ -1,6 +1,10 @@
 # Python 从零开始
 
-Python 入门教程：后端练习代码 + 前端课程笔记。
+## 简介 / Introduction
+
+**中文** — Python 入门教程项目：后端按 36 课组织练习代码，随学随跑；前端为配套的 Vue 课程笔记站点，按章节阅读全程笔记。代码与笔记一一对应，适合零基础系统性从零开始。
+
+**English** — A "Python from Zero" tutorial comprising 36 lessons of runnable backend exercise code plus a Vue-based course-notes site that maps chapter by chapter — code and notes are paired so absolute beginners can systematically start from the very beginning.
 
 ## 目录结构
 
