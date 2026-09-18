@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none">
-  <!-- Python from Zero: terminal prompt — monochrome -->
-  <rect width="32" height="32" rx="6" fill="#111"/>
-  <rect x="6" y="7.5" width="20" height="17" rx="2" stroke="#fff" stroke-width="1.5" fill="none"/>
-  <path d="M10 14.5l2.4 1.8-2.4 1.8" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M14.5 18.2h7" stroke="#fff" stroke-width="1.5" stroke-linecap="round"/>
-</svg>
